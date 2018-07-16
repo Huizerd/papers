@@ -1,0 +1,13 @@
+# Distinctive image features from scale-invariant keypoints
+David G. Lowe
+
+## SIFT
+- Invariant to scaling and location, partially invariant to illumination and viewpoint
+- Local: robust against occlusion, noise
+- Highly distinctive
+- Steps:
+	1. Scale-space extrema detection
+	2. Keypoint localization (reject poor contrast regions and edges, keep corners!)
+	3. Orientation assignment
+	4. Keypoint descriptor
+- Matching: approximate nearest-neighbour, compare to 2nd-nearest neighbour: 1st-nearest neigbour must be considerably closer for a reliable match

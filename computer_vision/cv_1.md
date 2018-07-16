@@ -1,0 +1,8 @@
+# Accidental pinhole and pinspeck cameras: revealing the scene outside the picture
+Antonio Torralba, William T. Freeman
+
+## Pinhole cameras
+- Smaller occluder or smaller window: sharper image, at the cost of increased noise
+- Increase SNR: increase occluder size (up to windows size)
+	- So: best results with small window and small occluder
+- Limitation of pinhole cameras: images need to be taken from the same point

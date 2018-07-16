@@ -1,0 +1,10 @@
+# The plenoptic function and the elements of early vision
+Edward H. Adelson, James R. Bergen
+
+## Plenoptic function
+- Like a color holographic movie: chunk of spacetime you can step into and look around
+	- Concert with cellphones: samples of the PF in all 7 dimensions!
+	- All information is potentially available (God vision)
+- P(theta, phi) means: all variables but theta, phi are constant
+	- Think of Google Streetview
+- Human: 5/7 dimensions of the PF (only lacking Vy and Vz)

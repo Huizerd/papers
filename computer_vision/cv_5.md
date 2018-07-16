@@ -1,0 +1,11 @@
+# KAZE features
+Pablo Fernandez Alcantarilla, Adrien Bartoli, Andrew J. Davison
+
+## KAZE
+- Gaussian blurring does not respect natural boundaries and smoothes both details and noise
+	- Loss in distinctiveness!
+- So, instead of Gaussian scale-space: nonlinear diffusion filtering
+	- Locally adaptive blurring that retains object boundaries
+- Not used before, since inefficient
+	- Solved through the use of additive operator splitting to build the scale-space efficiently
+- Efficiency comparable to SIFT, with better detection and description!

@@ -2,3 +2,11 @@
 Ethan Rublee, Vincent Rabaud, Kurt Konolige, Gary Bradski
 
 ## ORB
+- Aimed at real-time
+- Rotation invariant, resistant to noise due to BRIEF
+- 2 orders of magnitude faster than SIFT, and better performance than SURF
+- FAST keypoint detector + BRIEF descriptor
+	- Addition of orientation component to FAST based on the intensity centroid of corners
+	- Filter with Harris for corners (after applying FAST, which has no cornerness measure) + scale pyramid
+	- Addition of learning step to BRIEF, to make it invariant to rotation (rBRIEF)
+- Not scale invariant (was not addressed adequately)

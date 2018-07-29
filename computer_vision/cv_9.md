@@ -1,0 +1,19 @@
+# Shape and motion from image streams under orthography: a factorization method
+Carlo Tomasi, Takeo Kanade
+
+## Shape and motion factorization
+- Assumes orthographic projection: motion along the optical axis must be small (not accounted for by orthography)
+- Previous methods didn't work, since they made use of a camera-centered representation
+- Problems with this:
+	- Rotation is more or less equal to translation when motion is small, making it hard to differentiate
+	- Computing shape from relative depth is noise-sensitive
+- Solution: world-centered coordinates + orthography
+	- Object shape directly linked to motion (without first computing depth)
+- Method:
+	- Can deal with occlusions/tracking failures
+	- Does not smooth results (shape/motion)
+	- Can deal with small, distant objects
+	- Can deal with image noise (since it makes of only the 3 largest singular values)
+	- Doesn't deal with "false features", such as window reflections (which do not move rigidly with the environment)
+- Noise-free: at least 4 points needed in 4 frames (actually 3 frames with all 4 points, 4th frame 1 point unknown)
+	- Also needed: object/background segmentation

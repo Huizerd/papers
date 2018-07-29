@@ -1,0 +1,13 @@
+# Fixing the locally optimized RANSAC
+Karel Lebeda, Jiri Matas, Ondrej Chum
+
+## RANSAC
+- LO-RANSAC = RANSAC + local optimization step (iterative least squares)
+	- Slow in cases of many inliers (either absolute or relative), so we want to improve
+- LO+-RANSAC:
+	- Very stable (almost non-random)
+	- Limiting the number of inliers leads to reduced execution times + better precision
+	- More robust to threshold choice (due to new cost function)
+	- Better starting point for bundle adjustment
+- LO'-RANSAC: lightweight version for "easy" matching (no large motion/viewpoint changes, illumination)
+	- Up to 6x faster!

@@ -1,0 +1,12 @@
+# Adaptive as-natural-as-possible image stitching
+Chung-Ching Lin, Sharathchandra U. Pankanti, Karthikeyan Natesan Ramamurthy, Aleksandr Y. Aravkin
+
+## Stitching
+- Novel stitching method, smooth stitching field without bending artifacts and improved perspective in non-overlapping regions
+- Achieved through:
+	- Linearized homography in non-overlapping regions
+	- Global similarity transform estimated from overlapping regions
+	- So, in overlapping regions: smooth interpolation between local homography and global similarity
+	- In non-overlapping regions: extrapolation using linearized homography and global similarity
+- Mitigates perspective distortion and handles parallax issues well
+- Fully automated, robust to parameter selection

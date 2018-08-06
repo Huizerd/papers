@@ -3,9 +3,41 @@ Summaries of deep learning and computer vision papers for the courses CS4180 and
 
 ## Machine learning
 
+| Authors     | Year | Title                                                                                   |
+|-------------|------|-----------------------------------------------------------------------------------------|
+| L. Bottou   | 2010 | [Large-scale machine learning with stochastic gradient descent](deep_learning/dl_05.md) |
+| P. Domingos | 2012 | [A few useful things to know about machine learning](deep_learning/dl_01.md)            |
+| S. Ruder    | 2017 | [An overview of gradient descent optimization algorithms](deep_learning/dl_12.md)       |
+
+## Deep learning
+
+| Authors                                                                                                              | Year | Title                                                                                                     |
+|----------------------------------------------------------------------------------------------------------------------|------|-----------------------------------------------------------------------------------------------------------|
+| J. Carreira, A. Zisserman                                                                                            | 2017 | [Quo vadis, action recognition? A new model and the Kinetics dataset](deep_learning/dl_19.md)             |
+| J. Jacobsen, J. van Gemert, Z. Lou, A.W.M. Smeulders                                                                 | 2016 | [Structured receptive fields in CNNs](deep_learning/dl_15.md)                                             |
+| A. Karpathy, J. Johnson, L. Fei-Fei                                                                                  | 2015 | [Visualizing and understanding recurrent networks](deep_learning/dl_20.md)                                |
+| Q. Le, T. Mikolov                                                                                                    | 2014 | [Distributed representations of sentences and documents](deep_learning/dl_21.md)                          |
+| Y. LeCun, Y. Bengio, G.E. Hinton                                                                                     | 2015 | [Deep learning](deep_learning/dl_02.md)                                                                   |
+| C. Lin, S. Lucey                                                                                                     | 2017 | [Inverse compositional spatial transformer networks](deep_learning/dl_08.md)                              |
+| J. Long, E. Shelhamer, T. Darrell                                                                                    | 2015 | [Fully convolutional networks for semantic segmentation](deep_learning/dl_09.md)                          |
+| G. Marcus                                                                                                            | 2018 | [Deep learning: a critical appraisal](deep_learning/dl_03.md)                                             |
+| P. Morerio, J. Cavazza, R. Volpi, R. Vidal, V. Murino                                                                | 2017 | [Curriculum dropout](deep_learning/dl_14.md)                                                              |
+| A. van den Oord, S. Dieleman, H. Zen, K. Simonyan, O. Vinyals, A. Graves, N. Kalchbrenner, A. Senior, K. Kavukcuoglu | 2016 | [WaveNet: a generative model for raw audio](deep_learning/dl_18.md)                                       |
+| C.R. Qi, H. Su, K. Mo, L.J. Guibas                                                                                   | 2017 | [PointNet: learning on point sets for 3D classification and segmentation](deep_learning/dl_16.md)         |
+| A.S. Razavian, H. Azizpour, J. Sullivan, S. Carlsson                                                                 | 2014 | [CNN features off-the-shelf: an astounding baseline for recognition](deep_learning/dl_04.md)              |
+| J. Redmon, S. Divvala, R. Girshick, A. Farhadi                                                                       | 2016 | [You only look once: unified, real-time object detection](deep_learning/dl_06.md)                         |
+| S. Sabour, N. Frosst, G.E. Hinton                                                                                    | 2017 | [Dynamic routing between capsules](deep_learning/dl_11.md)                                                |
+| A.M. Saxe, P.W. Koh, Z. Chen, M. Bhand, B. Suresh, A.Y. Ng                                                           | 2010 | [On random weights and unsupervised feature learning](deep_learning/dl_13.md)                             |
+| C. Szegedy, W. Zaremba, I. Sutskever, J. Bruna, D. Erhan, I. Goodfellow, R. Fergus                                   | 2014 | [Intriguing properties of neural networks](deep_learning/dl_24.md)                                        |
+| A. Veit, M. Wilber, S. Belongie                                                                                      | 2016 | [Residual networks behave like ensembles of relatively shallow networks](deep_learning/dl_10.md)          |
+| K. Xu, J.L. Ba, R. Kiros, K. Cho, A. Courville, R. Salakhutdinov, R.S. Zemel, Y. Bengio                              | 2015 | [Show, attend and tell: neural image caption generation with visual attention](deep_learning/dl_17.md)    |
+| M.D. Zeiler, R. Fergus                                                                                               | 2013 | [Visualizing and understanding convolutional networks](deep_learning/dl_07.md)                            |
+| R. Zhang, P. Isola, A.A. Efros                                                                                       | 2017 | [Split-brain autoencoders: unsupervised learning by cross-channel prediction](deep_learning/dl_23.md)     |
+| J. Zhu, T. Park, P. Isola, A.A. Efros                                                                                | 2017 | [Unpaired image-to-image translation using cycle-consistent adversarial networks](deep_learning/dl_22.md) |
+
 ## Computer vision
 
-| Author                                                                               | Year | Title                                                                                                         |
+| Authors                                                                              | Year | Title                                                                                                         |
 |--------------------------------------------------------------------------------------|------|---------------------------------------------------------------------------------------------------------------|
 | E.H. Adelson, J.R. Bergen                                                            | 1991 | [The plenoptic function and the elements of early vision](computer_vision/cv_03.md)                           |
 | P.F. Alcantarilla, A. Bartoli, A.J. Davidson                                         | 2012 | [KAZE features](computer_vision/cv_05.md)                                                                     |
